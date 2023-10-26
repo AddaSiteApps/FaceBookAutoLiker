@@ -91,7 +91,7 @@ How To Get A List of All Your Facebook Friends (premium feature)
 
 If you don't mind the work, you may also use the following template and manually generate a .json file that you can then upload in the "Friends To Like?" section of the extension:
 
-                                \[
+                                [
                                     {"name":"John Doe","profileURL":"https://www.facebook.com/johndoe123"},
                                     {"name":"Jane Smith","profileURL":"https://www.facebook.com/janesmith456"},
                                     {"name":"Alice Johnson","profileURL":"https://www.facebook.com/alicej"},
@@ -102,7 +102,7 @@ If you don't mind the work, you may also use the following template and manually
                                     {"name":"Chris Clark","profileURL":"https://www.facebook.com/chrisclark333"},
                                     {"name":"Mia Harris","profileURL":"https://www.facebook.com/miaharris4"},
                                     {"name":"David Lee","profileURL":"https://www.facebook.com/davidlee789"}
-                                \]
+                                ]
                             
 
 When you have your json file, and once it's uploaded under General Settings, you should see a list of friends, like so: ![List of friends](images/friends-list.png)  
