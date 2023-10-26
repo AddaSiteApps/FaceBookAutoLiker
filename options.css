@@ -1,0 +1,56 @@
+.navbar {
+   background-color: #30638E;
+}
+.btn-primary {
+   border:1px solid #22547D;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+   background-color: #003D5B !important;
+}
+#message {
+   display: none;
+   background-color: #4CAF50;
+   color: white;
+   text-align: center;
+   padding: 20px;
+   position: fixed;
+   z-index: 10;
+   bottom: 0;
+   left: 0;
+   width: 100%; /* Full width */
+   opacity: 0;
+   transition: opacity 0.5s;
+   font-size:1.5em;
+ }
+
+ .error {
+   background-color: #721c24 !important;
+ }
+
+ .hidden {
+  display:none;
+ }
+ 
+ #message.show {
+   display: block;
+   opacity: 1;
+   animation: fadeOut 12s forwards; /* Apply the fade-out animation */
+ }
+
+ .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+   background-color: #30638E;
+}
+
+a {
+   color:#30638E;
+}
+ 
+ @keyframes fadeOut {
+   0% {
+     opacity: 1;
+   }
+   100% {
+     opacity: 0;
+   }
+ }
+ 
