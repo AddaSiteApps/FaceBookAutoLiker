@@ -2,7 +2,7 @@
 
 ![Extension options](images/extension-options.png)
 
-This Chrome extension will automatically like your FB friends posts. Once installed and activated (by clicking the extension's icon while viewing https://facebook.com), it will automatically refresh the current tab at a random interval you define and then automatically click the Like button.
+This Chrome extension will automatically like your FB friends posts, based on settings you define (when to run, which friends to like, which blockwords to avoid, minimum likes, etc.). Once installed and activated (by clicking the extension's icon while viewing https://facebook.com), it will automatically refresh the current tab at a random interval you define and then automatically click the Like button.
 
 To reach the options page for this extension, simply hover over the extension's icon, right-click it, and select "Options":
 
